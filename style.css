@@ -1,0 +1,98 @@
+/* General page settings */
+body {
+    direction: rtl;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f4f6f3;
+    color: #26352b;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Main container */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #d5dfd0;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #315b40;
+}
+
+h2 {
+    text-align: center;
+    color: #657f4b;
+}
+
+h3 {
+    color: #315b40;
+}
+
+/* Links */
+a {
+    color: #315b40;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    border: 1px solid #b8c8b0;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #55784b;
+    color: #ffffff;
+}
+
+/* Form elements */
+input,
+select,
+textarea {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #aab8a3;
+    margin: 5px;
+}
+
+/* Buttons */
+input[type="button"],
+input[type="submit"],
+button {
+    background-color: #55784b;
+    color: #ffffff;
+    border: none;
+    padding: 10px 18px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover,
+button:hover {
+    background-color: #315b40;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
